@@ -5,6 +5,7 @@ package com.orangeHRMtestcase12;
 import static org.testng.Assert.fail;
 
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.orangeHRM.basictest.Basepagee;
@@ -22,6 +23,7 @@ public class Testcase_id extends Basepagee {
 		hp.Lasttn().sendKeys("assd");
 		hp.savebtn().click();
 		System.out.println("WElcomeee");
+		Reporter.log("swati");
 		
 	}
 
