@@ -3,4 +3,10 @@
   <groupId>ROHANGITHUB</groupId>
   <artifactId>ROHANGITHUB</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <dependency>
+    <groupId>tech.grasshopper</groupId>
+    <artifactId>extent-excel-report</artifactId>
+    <version>1.3.0</version>
+      </dependency></dependencies>
 </project>
